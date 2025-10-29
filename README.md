@@ -21,9 +21,11 @@ Both containers communicate through Docker’s internal network.
 3.**Verify running containers**
         `docker ps`
 4.**docker exec -it backend sh**
-`ping db`
+```bash
+ping db
 5.**Tested PostgreSQL connection**  
-`node db-test.js`
+```bash
+node db-test.js
 
 
 
